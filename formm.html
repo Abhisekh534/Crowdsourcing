@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SURVEY Form</title>
+    <link rel="stylesheet" href="formm.css" />
+  </head>
+  <body>
+    <h1>SURVRY FORM</h1>
+    <p>Please fill out this form with the required information...</p>
+    <form id="surveyForm">
+      <fieldset>
+        <label for="first-name">Enter Your Name: <input id="first-name" name="first-name" type="text" required  placeholder="eg: JOHN DOE"/></label>
+        <label for="last-name">Enter Your Location: <input id="last-name" name="last-name" type="text" required placeholder="eg: NEW DELHI,INDIA"/></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required placeholder=".......@gmail.com"/></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="personal-account" class="inline" /> I am below 18 years of age</label>
+        <label for="business-account"><input id="business-account" type="radio" name="business-account" class="inline" /> I am 18+</label>
+      </fieldset>
+      <fieldset class="Water">
+        <h2 class="headd">Water Quality Questionnaire</h2>
+        <p class="q">Has any member of your household experienced any of the following? Check all that apply.</p>
+        <div class="option">
+          <label for="Acidreflux"><input type="checkbox" id="Acidreflux" name="Q1O1" class="inline" />Acid Reflux / Heatburn</label>
+          <label for="Itchy Dry Skin"><input type="checkbox" id="Itchy Dry Skin" name="Q1O2" class="inline" />Itchy Dry Skin</label>
+          <label for="Eczema"><input type="checkbox" id="Eczema" name="Q1O3" class="inline" />Eczema / Psoriasis</label>
+          <label for="dryb"><input type="checkbox" id="dryb" name="Q1O4" class="inline" />Dry / Brittle Hair</label>
+        </div>
+        <p class="q">Has anyone noticed your water having a strange odor or smell? Check all that apply.</p>
+        <div class="option">
+          <label for="cl"><input type="checkbox" id="ch" name="q201" class="inline" />Chlorine / Ammonia</label>
+          <label for="s"><input type="checkbox" id="s" name="q202" class="inline" />Sulfur / Rotten Egg</label>
+          <label for="MC"><input type="checkbox" id="MC" name="q2o3" class="inline" />Metallic Chemical</label>
+          <label for="EM"><input type="checkbox" id="EM" name="q2o4" class="inline" />Earthy / Musty</label>
+        </div>
+        <p class="q">Have you recently noticed any of the following regarding your tap water? Check all that apply.</p>
+        <div class="option">
+          <label for="D3"><input type="checkbox" id="D3" name="q3o1" class="inline" />Discoloration</label>
+          <label for="is3"><input type="checkbox" name="q3o2" id="is3" class="inline" />Iron Staining</label>
+          <label for="sbu"><input type="checkbox" id="sbu" name="q3o3" class="inline" />Scale Build-Up</label>
+          <label for="md"><input type="checkbox" id="md" name="q3o4" class="inline" />Mineral Deposits</label>
+          <label for="ss"><input type="checkbox" id="ss" name="q3o5" class="inline" />Soap Scum / Film</label>
+          <label for="rwh"><input type="checkbox" id="rwh" name="q3o6" class="inline" />Replaced water Heater</label>
+        </div>
+        <p class="q">What water do you typically drink? Check all that apply.</p>
+        <div class="option">
+          <label for="bws"><input type="checkbox" id="bws" name="q4o1" class="inline" />Bottled Water-Singles</label>
+          <label for="bwg"><input type="checkbox" id="bwg" name="q4o2" class="inline" />Bottled water-Gallons</label>
+          <label for="bwd"><input type="checkbox" id="bwd" name="q4o3" class="inline" />Bottled Water-Delivery</label>
+          <label for="abw"><input type="checkbox" id="abw" name="q4o4" class="inline" />Alkaline Bottled Water</label>
+          <label for="row"><input type="checkbox" id="row" name="q4o5" class="inline" />Reverse Osmosis water</label>
+          <label for="rw"><input type="checkbox" id="rw" name="q4o6" class="inline" />Refills / Windmill</label>
+          <label for="rfw"><input type="checkbox" id="rfw" name="q4o7" class="inline" />Refrigerated Filtered Water</label>
+          <label for="pt"><input type="checkbox" id="pt" name="q4o8" class="inline" />Pour-Thru Pitcher Filtered Water</label>
+          <label for="fm"><input type="checkbox" id="fm" name="q4o9" class="inline" />Faucet-Mounted Filtered Water</label>
+          <label for="tw"><input type="checkbox" id="tw" name="q4o10" class="inline" />Tap water</label>
+        </div>
+        <p class="q">Have you or any family member experienced respiratory issues? Check all that apply.</p>
+        <div class="option">
+          <label for="asthma"><input type="checkbox" id="asthma" name="q17o1" class="inline" />Asthma</label>
+          <label for="allergies"><input type="checkbox" id="allergies" name="q17o2" class="inline" />Allergies</label>
+          <label for="copd"><input type="checkbox" id="copd" name="q17o3" class="inline" />COPD</label>
+          <label for="oth5"><input type="checkbox" name="q17o4" id="oth5" class="inline">Other</label>
+          <label for="s5">Specify if other:  <textarea name="ss5" id="s5" class="inline"></textarea></label>
+        </div>
+        <p class="q">Do you notice any unusual smells or odors in the air? Check all that apply.</p>
+        <div class="option">
+          <label for="gases"><input type="checkbox" id="gases" name="q18o1" class="inline" />Chemical Gases</label>
+          <label for="smoke"><input type="checkbox" id="smoke" name="q18o2" class="inline" />Smoke</label>
+          <label for="pollution"><input type="checkbox" id="pollution" name="q18o3" class="inline" />Air Pollution</label>
+          <label for="oth6"><input type="checkbox" name="q18o4" id="oth6" class="inline">Other</label>
+          <label for="s6">Specify if other:  <textarea name="ss6" id="s6" class="inline"></textarea></label>
+        </div>
+        <p class="q">Do you use a water softener system in your house?</p>
+        <div class="option">
+          <label for="ws-yes"><input type="radio" id="ws-yes" name="water-softener" class="inline" />Yes</label>
+          <label for="ws-no"><input type="radio" id="ws-no" name="water-softener" class="inline" />No</label>
+        </div>
+
+        <p class="q">How often do you test your water quality?</p>
+        <div class="option">
+          <label for="test-often"><input type="radio" id="test-often" name="water-test-frequency" class="inline" />Frequently</label>
+          <label for="test-occasionally"><input type="radio" id="test-occasionally" name="water-test-frequency" class="inline" />Occasionally</label>
+          <label for="test-never"><input type="radio" id="test-never" name="water-test-frequency" class="inline" />Never</label>
+        </div>
+
+        <p class="q">Have you noticed any changes in water quality over time?</p>
+        <div class="option">
+          <label for="changes-yes"><input type="radio" id="changes-yes" name="water-quality-changes" class="inline" />Yes</label>
+          <label for="changes-no"><input type="radio" id="changes-no" name="water-quality-changes" class="inline" />No</label>
+        </div>
+        <p class="q">What is the approximate age of your house?</p>
+        <select>
+          <option value="1">--Please choose an option--</option>
+          <option value="2">New Constrction</option>
+          <option value="3">1-3 Years</option>
+          <option value="4">3-10 Years</option>
+          <option value="5">10-20 Years</option>
+          <option value="6">20+ Years</option>
+        </select>
+        <p class="q">what is your Water Source?</p>
+        <select>
+          <option value="1">--Please choose an option--</option>
+          <option value="2">City Water</option>
+          <option value="3">Community Well</option>
+          <option value="4">Private Well</option>
+          <option value="5">Not yet connected</option>
+        </select>
+      </fieldset>
+      <fieldset class="soil">
+        <h2 class="headd">Soil Quality Questionnaire</h2>
+        <p class="q">What is the parent material of soil in your area?</p>
+        <div class="option">
+          <label for="mm"><input type="checkbox" id="mm" name="q11o1" class="inline" />Metamorphic Rocks</label>
+          <label for="vi"><input type="checkbox" id="vi" name="q11o2" class="inline" />Vindhyan Rocks</label>
+          <label for="go"><input type="checkbox" id="go" name="q11o3" class="inline" />Gondwana Rocks</label>
+          <label for="oth1"><input type="checkbox" name="q11o4" id="oth1" class="inline">Other</label>
+          <label for="s1">Specify if other:  <input type="textarea" name="ss1" id="s1" class="inline" /></label>
+        </div>
+        <p class="q">Are there any soil organisms in your area?</p>
+        <div class="option">
+          <label for="ear"><input type="checkbox" name="q12o1" id="ear" class="inline" />Earthworms</label>
+          <label for="fungi"><input type="checkbox" name="q12o2" id="fungi" class="inline" />Fungi</label>
+          <label for="bac"><input type="checkbox" name="q12o3" id="bac" class="inline" />Bacteria</label>
+          <label for="oth2"><input type="checkbox" name="q12o4" id="oth2" class="inline">Other</label>
+          <label for="s2">Specify if other:  <input type="textarea" name="ss2" id="s2" class="inline" /></label>
+        </div>
+        <p class="q">How do you preserve soil fertility?</p>
+        <div class="option">
+          <label for="crp"><input type="checkbox" name="q1301" id="crp" class="inline" />Crop Rotation</label>
+          <label for="int"><input type="checkbox" name="q13o2" id="int" class="inline" />Inter-Cropping</label>
+          <label for="fer"><input type="checkbox" name="q13o3" id="fer" class="inline" />Fertilisation</label>
+          <label for="oth3"><input type="checkbox" name="q13o4" id="oth3" class="inline">Other</label>
+          <label for="s3">Specify if other:  <input type="textarea" name="ss3" id="s3" class="inline" /></label>
+        </div>
+        <p class="q">How do you control pests and diseases?</p>
+        <div class="option">
+          <label for="bio"><input type="checkbox" name="q14o1" id="bio" class="inline" />Biological and Organic control method</label>
+          <label for="ipm"><input type="checkbox" name="q1402" id="ipm" class="inline" />Integerated Pest Management (IPM)</label>
+          <label for="cp"><input type="checkbox" name="q14o3" id="cp" class="inline" />Chemical Pesticides</label>
+          <label for="oth3"><input type="checkbox" name="q14o4" id="oth3" class="inline">Other Methods</label>
+          <label for="s3">Specify if other:  <input type="textarea" name="ss3" id="s3" class="inline" /></label>
+        </div>
+        <p class="q">Have you ever heard about organic farming/</p>
+        <div class="option">
+          <label for="y"><input type="radio" name="q15o1" id="y" class="inline">Yes</label>
+          <label for="n"><input type="radio" name="q15o2" id="n" class="inline">No</label>
+        </div>
+        <p class="q">What is the soil texture of your arae?</p>
+        <div class="option">
+          <label for="sandy"><input type="checkbox" name="q16o1" id="sandy" class="inline">Sandy Soil</label>
+          <label for="clay"><input type="checkbox" name="q16o2" id="clay" class="inline">Clay Soil</label>
+          <label for="lass"><input type="checkbox" name="q16o3" id="lass" class="inline">Loamy and Sandy Soil</label>
+          <label for="oth4"><input type="checkbox" name="q16o4" id="oth4" class="inline">Other Methods</label>
+          <label for="s4">Specify if other:  <input type="textarea" name="ss4" id="s4" class="inline" /></label>
+        </div>
+        <p class="q">Do you use any organic fertilizers in your gardening or farming practices?</p>
+        <div class="option">
+          <label for="organic-fertilizer-yes"><input type="radio" id="organic-fertilizer-yes" name="organic-fertilizer" class="inline" />Yes</label>
+          <label for="organic-fertilizer-no"><input type="radio" id="organic-fertilizer-no" name="organic-fertilizer" class="inline" />No</label>
+        </div>
+
+        <p class="q">How often do you water your plants or crops?</p>
+        <div class="option">
+          <label for="watering-daily"><input type="radio" id="watering-daily" name="watering-frequency" class="inline" />Daily</label>
+          <label for="watering-weekly"><input type="radio" id="watering-weekly" name="watering-frequency" class="inline" />Weekly</label>
+          <label for="watering-monthly"><input type="radio" id="watering-monthly" name="watering-frequency" class="inline" />Monthly</label>
+        </div>
+
+        <p class="q">Have you experienced any issues with soil erosion on your property?</p>
+        <div class="option">
+          <label for="erosion-yes"><input type="radio" id="erosion-yes" name="soil-erosion" class="inline" />Yes</label>
+          <label for="erosion-no"><input type="radio" id="erosion-no" name="soil-erosion" class="inline" />No</label>
+        </div>
+
+        <p class="q">What types of crops or plants do you usually grow in your garden or farm?</p>
+        <textarea name="crops-grown" id="crops-grown" class="inline"></textarea>
+
+        <p class="q">Do you use any specific techniques for weed control?</p>
+        <div class="option">
+          <label for="weed-control-manual"><input type="checkbox" id="weed-control-manual" name="weed-control-manual" class="inline" />Manual removal</label>
+          <label for="weed-control-mulching"><input type="checkbox" id="weed-control-mulching" name="weed-control-mulching" class="inline" />Mulching</label>
+          <label for="weed-control-herbicides"><input type="checkbox" id="weed-control-herbicides" name="weed-control-herbicides" class="inline" />Herbicides</label>
+        </div>
+      
+      </fieldset>
+      <button type="button" onclick="submitForm()">Submit</button>
+
+    <!-- JavaScript to handle form submission and redirection -->
+    <script>
+      function submitForm() {
+        // Get form data and serialize it to JSON
+        var formData = {};
+        new FormData(document.getElementById("surveyForm")).forEach(function(value, key){
+          formData[key] = value;
+        });
+
+        // Store serialized data in sessionStorage
+        sessionStorage.setItem("submittedData", JSON.stringify(formData));
+
+        // Redirect to a new page
+        window.location.href = "display_data.html";
+      }
+    </script>
+    </form>
+  </body>
+</html>

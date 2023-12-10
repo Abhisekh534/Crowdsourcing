@@ -1,0 +1,155 @@
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    height: 85px;
+
+}
+main{
+    display: flex;
+    border: 2px solid black;
+}
+.left{
+    width: 30%;
+    background-color: khaki;
+    border: 2px solid black;
+}
+.right{
+    width: 70%;
+    background-image: url(Crowdsource21.jpg);
+    height: 600px;
+    border: 2px solid black;
+
+}
+.intro{
+    width: 29%;
+    height: 45px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    position: absolute;
+    top: 430px;
+    font-size: 40px;
+
+}
+.form{
+    width: 29%;
+    height: 45px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    position: absolute;
+    top: 530px;
+    font-size: 40px;
+}
+.stats{
+    width: 29%;
+    height: 45px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    position: absolute;
+    top: 630px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:active{
+    font-style: italic;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: red 5s linear infinite;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+@keyframes red {
+    25%{
+        left: 200px;
+        top: 150px;
+    }
+    50%{
+        left: 200px;
+        top: 250px;
+    }
+    75%{
+        left: 100px;
+        top: 250px;
+    }
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: green 5s linear infinite;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+@keyframes green {
+    25%{
+        left: 200px;
+        top: 250px;
+    }
+    50%{
+        left: 100px;
+        top: 250px;
+    }
+    75%{
+        left: 100px;
+        top: 150px;
+    }
+}
+.orange{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    animation: orange 5s linear infinite;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
+@keyframes orange {
+    25%{
+        left: 100px;
+        top: 250px;
+    }
+    50%{
+        left: 100px;
+        top: 150px;
+    }
+    75%{
+        left: 200px;
+        top: 150px;
+    }
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: blue 5s linear infinite;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+@keyframes blue {
+    25%{
+        left: 100px;
+        top: 150px;
+    }
+    50%{
+        left: 200px;
+        top: 150px;
+    }
+    75%{
+        left: 200px;
+        top: 250px;
+    }
+}
